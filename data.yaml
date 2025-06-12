@@ -1,0 +1,13 @@
+train: D:/Qr_detections/dataset/train/images
+val: D:/Qr_detections/dataset/valid/images
+test: D:/Qr_detections/dataset/test/images
+
+nc: 1
+names: ['QR-SCAN']
+
+roboflow:
+  workspace: sign-language-srojg
+  project: smartid_vechile_system
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sign-language-srojg/smartid_vechile_system/dataset/1
